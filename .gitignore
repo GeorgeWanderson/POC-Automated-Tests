@@ -1,0 +1,42 @@
+# Ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos de configuração do sistema
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs e dados temporários
+*.log
+*.csv
+*.sqlite
+
+# Configurações do Streamlit
+.streamlit/config.toml
+
+# Pastas e arquivos do VS Code
+.vscode/
+
+# Arquivos do PyCharm
+.idea/
+
+# Dependências
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de depuração e configuração
+*.bak
+*.swp
+*.tmp
